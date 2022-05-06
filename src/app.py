@@ -20,6 +20,7 @@ def import_data(path, cols, **kwargs):
     ----------
     path: path where data is located
     cols: list of columns to be removed from columns
+    kwargs: any parameters related ot pd.read_csv method
     
     Returns
     -------
@@ -40,7 +41,7 @@ st.title('Visualizing Housing Prices in Toronto')
 #Ask user to provide a parameters  
 parameters = st.selectbox('Select the parameters to be plotted', ('Actual', 'Benchmark'))
 
-#ask for variables 
+#ask user for variables 
 if parameters == 'Actual':
     df, columns = import_data('../data/cleaned/district_price.csv',
                                 ['Name', 'month', 'day', 'year', 'date'],
