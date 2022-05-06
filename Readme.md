@@ -10,33 +10,33 @@ One of the biggest challenge during this project was unavailability of data in a
 ### Project Structure 
 
 This project is structured in the following way:
-
-├── README.md          <- This file.\     
-├── data\                    
-│   ├── raw            <- The original, immutable data dump (due to large size not hosted on github).        
-│   ├── processed      <- transformed data to csv files                         
-│   └── cleaned        <- The final, canonical data sets for modeling.                      
-│                      
-├── notebooks          <- Jupyter notebooks. `1.0-jqp-initial-data-exploration`Naming convention is a number 
-│   ├── 1_Data_Scrapping.ipynb <- Describes the process for scrapping data from pdf files to csv files.
-│   ├── 2_Data_Cleaning_EDA    <- Describes the process of cleaning data and exploratory data analysis. 
-│   └── 3_Data_Visualization   <- Describes the steps to make a interactive map visualization.
-│
-├── references         <- Some images to explain data visually.
-│
-├── reports            <- Report summarizing findings from the study.
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment
-│
-├── src                <- Source code for deploying the app.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── app.py         <- Script to make an app using streamlit
-│   │
-│   ├── data_dic.py    <- Script that describes the plotted variables in a dictionary
-│   │
-│   ├── plotly_vis.py  <- Script to make an interactive map visualization using plotly
-
+```nohighlight      
+├── README.md          <- This file.    
+├── data                    
+│   ├── raw            <- The original, immutable data dump (due to large size not hosted on github).\        
+│   ├── processed      <- transformed data to csv files                           
+│   └── cleaned        <- The final, canonical data sets for modeling.                        
+│                        
+├── notebooks          <- Jupyter notebooks. `1.0-jqp-initial-data-exploration`Naming convention is a number\ 
+│   ├── 1_Data_Scrapping.ipynb <- Describes the process for scrapping data from pdf files to csv files.  
+│   ├── 2_Data_Cleaning_EDA    <- Describes the process of cleaning data and exploratory data analysis.   
+│   └── 3_Data_Visualization   <- Describes the steps to make a interactive map visualization.  
+│  
+├── references         <- Some images to explain data visually.  
+│  
+├── reports            <- Report summarizing findings from the study.  
+│  
+├── requirements.txt   <- The requirements file for reproducing the analysis environment  
+│  
+├── src                <- Source code for deploying the app.  
+│   ├── __init__.py    <- Makes src a Python module  
+│   │  
+│   ├── app.py         <- Script to make an app using streamlit  
+│   │  
+│   ├── data_dic.py    <- Script that describes the plotted variables in a dictionary  
+│   │  
+│   ├── plotly_vis.py  <- Script to make an interactive map visualization using plotly  
+```
 
 ### References
 
