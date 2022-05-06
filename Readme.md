@@ -11,12 +11,12 @@ One of the biggest challenge during this project was unavailability of data in a
 
 This project is structured in the following way:
 
-├── README.md          <- This file.
-├── data
-│   ├── raw            <- The original, immutable data dump (due to large size not hosted on github).
-│   ├── processed      <- transformed data to csv files
-│   └── cleaned        <- The final, canonical data sets for modeling.
-│
+├── README.md          <- This file. <br>      
+├── data <br>                
+│   ├── raw            <- The original, immutable data dump (due to large size not hosted on github).       
+│   ├── processed      <- transformed data to csv files                
+│   └── cleaned        <- The final, canonical data sets for modeling.               
+│                 
 ├── notebooks          <- Jupyter notebooks. `1.0-jqp-initial-data-exploration`Naming convention is a number 
 │   ├── 1_Data_Scrapping.ipynb <- Describes the process for scrapping data from pdf files to csv files.
 │   ├── 2_Data_Cleaning_EDA    <- Describes the process of cleaning data and exploratory data analysis. 
