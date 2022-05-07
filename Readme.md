@@ -26,7 +26,7 @@ This project is structured in the following way:
 │  
 ├── reports            <- Report summarizing findings from the study.  
 │  
-├── requirements.txt   <- The requirements file for reproducing the analysis environment  
+├── requirements_full.txt   <- The requirements file for reproducing the analysis environment  
 │  
 ├── src                <- Source code for deploying the app.  
 │   ├── __init__.py    <- Makes src a Python module  
@@ -35,7 +35,9 @@ This project is structured in the following way:
 │   │  
 │   ├── data_dic.py    <- Script that describes the plotted variables in a dictionary  
 │   │  
-│   ├── plotly_vis.py  <- Script to make an interactive map visualization using plotly  
+│   ├── plotly_vis.py  <- Script to make an interactive map visualization using plotly     
+│   │      
+│   ├── requirements.txt  <-  The requirements file for reproducing the app.py file on streamlit cloud   
 ```
 
 ### References
