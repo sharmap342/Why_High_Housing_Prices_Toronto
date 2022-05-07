@@ -2,7 +2,7 @@
 
 We all know how unaffordable Toronto housing market is in the recent years. To understand the causes of hight housing prices in the City of Toronto, I took on this project. I did not do any modelling but did some exploratory data analysis and interactive visualization to understand the high housing prices for the city of Toronto.             
 
-Check out this app to visualize housing prices for the different parts of Toronto.        
+Check out this app to visualize housing prices for the different parts of Toronto (https://share.streamlit.io/sharmap342/why_high_housing_prices_toronto/main/src/app.py).        
 
 One of the biggest challenge during this project was unavailability of data in a form that can be used for analysis in python aka in the csv format. I had to download housing data as pdf files from Toronto Regional Real Estate Board's (TRREB) website (https://trreb.ca/index.php/market-news/market-watch/market-watch-archive). The data was scrapped from these pdf files csv files.   
 
