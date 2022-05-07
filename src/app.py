@@ -9,7 +9,7 @@ import data_dic
 
 
 #import geojson file 
-with open('../data/cleaned/toronto_district.geojson') as f:
+with open('data/cleaned/toronto_district.geojson') as f:
     data_district = json.load(f)
 
 
@@ -43,12 +43,12 @@ parameters = st.selectbox('Select the parameters to be plotted', ('Actual', 'Ben
 
 #ask user for variables 
 if parameters == 'Actual':
-    df, columns = import_data('../data/cleaned/district_price.csv',
+    df, columns = import_data('data/cleaned/district_price.csv',
                                 ['Name', 'month', 'day', 'year', 'date'],
                                 index_col=0)
     parameter = st.selectbox('Select the variable to be plotted', tuple(columns))
 else: 
-    df, columns = import_data('../data/cleaned/district_MLS.csv',
+    df, columns = import_data('data/cleaned/district_MLS.csv',
                                 ['Name', 'month', 'day', 'year', 'date'],
                                 index_col=0)
     parameter = st.selectbox('Select the variable to be plotted', tuple(columns))
